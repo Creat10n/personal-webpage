@@ -1,0 +1,154 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Oct 10, 2016, 9:40:42 AM
+    Author     : CREAT10N
+*/
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    font: 12px Arial, Helvetica, sans-serif;
+    background: 0 0/350px 350px url(img/body_background.jpg);
+}
+#wrapper {
+    background: #ECF0F1;
+    margin: 0px auto;
+    width: 780px;
+    height: auto;
+    border-left: 1px solid #7F8C8D;
+    border-right: 1px solid #7F8C8D;
+}
+#header{
+    height: 25px;
+    padding: 20px 20px 10px 20px;
+    margin-bottom: 30px;
+}
+#header > nav{
+    border-width: 1px;
+    height: 25px;
+    margin: 0px auto;
+    width: 780px;
+}
+ul.navbar-nav > li.active > a{
+    padding-bottom: 14px;
+}
+#body-content{
+    clear: both;
+}
+#body-content > h1{
+    text-align: center;
+    margin-bottom: 20px;
+    color: #E74C3C;
+    font-weight: bold;
+}
+#avatar{
+    margin-bottom: 50px;
+    text-align: center;
+}
+div > h3{
+    padding-bottom: 15px;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #E74C3C;
+    font-size: 20px;
+    color: #2ECC71;
+    font-weight: bold;
+}
+.content{
+    margin-bottom: 20px;
+    text-align: justify;
+    padding: 0 20px;
+}
+#brief-des{
+    width: 50%;
+    float: left;
+    text-align: center;
+}  
+#objective{
+    width: 50%;
+    float: right;
+    clear: both;
+    text-align: center;
+}
+#education{
+    width: 50%;
+    float: left;
+    clear: both;
+    text-align: center;
+}
+#course-expect{
+    width: 50%;
+    float: right;
+    clear: both;
+    text-align: center;
+}
+#footer{
+    margin-top: 50px;
+    text-align: center;
+    border-bottom: 1px solid #7F8C8D;
+}
+#school-pic{
+    text-align: center;
+}
+
+
+#contact-col{
+    width: 55%;
+    float: left;
+}
+#contact-address{
+    margin-left: 5%;
+    margin-bottom: 20px;
+}
+#address-info{
+    padding-left: 10%;
+}
+#contact-form{
+    margin-left: 5%;
+}
+#form-info{
+    padding-left: 15%
+}
+#social-contact{
+    margin-left: 5%;
+    width: 35%;
+    padding-top: 10%;
+    float: left;
+}
+.social-link{
+    margin-top: 20px;
+    height: 50px;
+}
+.social-logo{
+    padding-left: 20%;
+    float: left;
+}
+.social-name{
+    width: 120px;
+    height: 50px;
+    color: #FFFFFF;
+    float: left;
+    text-align: center;
+    padding-top: 12px;
+    font-size: 20px;
+}
+#youtube{
+    background: #EF4E41;
+}
+#facebook{
+    background: #5D82D1;
+}
+#twitter{
+    background: #40BFF5;
+}
+#pinterest{
+    background: #E13138;
+}
+#github{
+    background: #3F91CB;
+}
