@@ -38,6 +38,19 @@ body{
 ul.navbar-nav > li.active > a{
     padding-bottom: 14px;
 }
+.navbar-collapse.collapse {
+  display: block;
+}
+.navbar-nav>li, .navbar-nav {
+  float: left;
+}
+.navbar-nav.navbar-right:last-child {
+  margin-right: -15px;
+}
+.navbar-right {
+  float: right;
+}
+
 #body-content{
     clear: both;
 }
@@ -62,7 +75,7 @@ div > h3{
 .content{
     margin-bottom: 20px;
     text-align: justify;
-    padding: 0 20px;
+    padding: 0 30px;
 }
 #brief-des{
     width: 50%;
@@ -87,15 +100,132 @@ div > h3{
     clear: both;
     text-align: center;
 }
+br{
+    clear: both;
+}
 #footer{
     margin-top: 50px;
     text-align: center;
     border-bottom: 1px solid #7F8C8D;
 }
-#school-pic{
+
+#class-pic{
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 5%;
+}
+.photo-content{
+    margin: 15px 0 5px 17px;
+    float: left;
+}
+.col-photo{
+    width: 110px;
+    margin-left: 17px;
+    float: left;
+}
+#class-quote{
+    padding-top: 20px;
+    width: 480px;
+    margin-left: 20px;
+    text-align: justify;
+    float: left;
+}
+#class-quote > p{
+    text-indent: 30px;
+}
+#class-vid{
     text-align: center;
 }
 
+#school-pic{
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 5%;
+}
+#school-history{
+    width: 80%;
+    margin: 0 auto;
+}
+#school-history > p{
+    text-align: justify;
+    padding: 0 5%;
+}
+#department{
+    float: left;
+    width: 37%;
+    padding-left: 5%;
+    color: #5B8DC1;
+}
+#department-content{
+    margin-top: 12%;
+    padding-left: 10%;
+    
+}
+#quick-link{
+    width: 50%;
+    float: left;
+    margin-left: 8%;
+}
+.quick-link{
+    float: left;
+    margin-top: 5px;
+}
+.quick-link-logo{
+    margin-top: 20px;
+    margin-left: 10px;
+    float: left;
+}
+.quick-link-name{
+    margin-top: 20px;
+    width: 110px;
+    height: 44px;
+    color: #FFFFFF;
+    float: left;
+    text-align: center;
+    padding-top: 12px;
+    font-size: 16px;
+}
+#blackboard{
+    background: #903930;
+}
+#edusoftweb{
+    background: #C16521;
+}
+#staffemail{
+    background: #8A9144;
+}
+#edusoftmaster{
+    height: 45px;
+    background: #3E7699;
+}
+#studentemail{
+    text-align: center;
+    background: #A88B61;
+}
+#ooa{
+    background: #8B328E;
+}
+
+#photo{
+    margin-top: 5%;
+    padding: 0 10%;
+}
+.photo{
+    margin-top: 20px;
+}
+#video{
+    margin-top: 5%;
+    padding: 0 10%;
+}
+.video{
+    margin-top: 5%;
+    margin-left: 8%;
+    float: left;
+}
+.video-title{
+    font-size: 16px;
+    text-align: center;
+}
 
 #contact-col{
     width: 55%;
@@ -117,7 +247,7 @@ div > h3{
 #social-contact{
     margin-left: 5%;
     width: 35%;
-    padding-top: 10%;
+    padding-top: 8%;
     float: left;
 }
 .social-link{
