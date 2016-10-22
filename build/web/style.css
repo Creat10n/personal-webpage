@@ -39,16 +39,16 @@ ul.navbar-nav > li.active > a{
     padding-bottom: 14px;
 }
 .navbar-collapse.collapse {
-  display: block;
+    display: block;
 }
 .navbar-nav>li, .navbar-nav {
-  float: left;
+    float: left;
 }
 .navbar-nav.navbar-right:last-child {
-  margin-right: -15px;
+    margin-right: -15px;
 }
 .navbar-right {
-  float: right;
+    float: right;
 }
 
 #body-content{
